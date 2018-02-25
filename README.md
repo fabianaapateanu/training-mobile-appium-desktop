@@ -17,7 +17,7 @@ The debug apk can be found in:
 1. Simple server
 Appium desktop app first screen:
 
-(./screenshots/SimpleServer.png)
+![Alt text](screenshots/SimpleServer.png?raw=true)
 
 2. Advanced server
 [The advanced server screen](screenshots/AdvancedServer.png)
