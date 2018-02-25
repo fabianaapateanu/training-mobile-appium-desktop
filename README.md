@@ -33,6 +33,7 @@ under test, Yamba.
      ![Alt text](screenshots/StartLocalhost.png?raw=true)
     
     2. When the server starts, the server logs window is opened:
+  
      ![Alt text](screenshots/StartedLocalhost.png?raw=true)
     
     This window will show through its logs and messages the status of the Appium server.
@@ -43,10 +44,12 @@ under test, Yamba.
 Our goal is to inspect and interact with some of the applications elements.
 
     1. From the server logs window, upper right corner, click the `Start Inspector Session` button:
+   
      ![Alt text](screenshots/InspectorBtn.png?raw=true)
     
     2. A new Inspector Session window is opened which has by default selected the option `Automatic Server`
     which is using the server we just opened (section 1.)
+    
      ![Alt text](screenshots/NewSession.png?raw=true)
      
     3. Add the needed Desired Capabilities with `+` button:
@@ -55,11 +58,13 @@ Our goal is to inspect and interact with some of the applications elements.
         * `appPacakge` = `com.example.android.yamba`
         * `appActivity` = `com.example.android.yamba.MainActivity`
         * `noReset` = `true` - because we will start multiple sessions, and we don't want the app to be reset
+       
         ![Alt text](screenshots/SimpleYambaSession.png?raw=true)
         
         You can find the json with these capabilities here: (this can be copied directly in the `JSON Representation`)
         * `inspector/simpleYambaSession.json`
         
      4. Click the `Start Session` button which will open a new session to the Yamba app with no element selected:
+        
         ![Alt text](screenshots/SimpleYambaSessionStarted.png?raw=true)      
         
