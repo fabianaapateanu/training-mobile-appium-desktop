@@ -1,0 +1,8 @@
+{
+  "deviceName": "Xperia",
+  "udid": "YT910ZTJXW",
+  "platformName": "Android",
+  "appPackage": "com.example.android.yamba",
+  "appActivity": "com.example.android.yamba.MainActivity",
+  "noReset": "true"
+}
