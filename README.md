@@ -68,3 +68,15 @@ Our goal is to inspect and interact with some of the applications elements.
         
         ![Alt text](screenshots/SimpleYambaSessionStarted.png?raw=true)      
         
+3. Appium Inspector Session
+    When the session with the Yamba app is started you can inspect the application elements and perform basic
+    interactions with them.
+    
+    1. Expand element tree and look for the elements being highlighted while hovering with the mouse pointr
+    2. Select the Menu button (3 dots) element and click `Tap`
+   
+        ![Alt text](screenshots/MoreOptionsBtn.png?raw=true)      
+        
+    3. The Options menu is opened and the app screen gets refreshed and the elements tree the same (App Source section)
+    
+        ![Alt text](screenshots/AfterMoreOptionsBtn.png?raw=true)  
