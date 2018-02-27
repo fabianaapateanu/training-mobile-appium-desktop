@@ -44,7 +44,7 @@ under test, Yamba.
 2. New Session
 
     Through the New Session we want to start an Appium session for the application under test.
-Our goal is to inspect and interact with Appium Inspector some of the applications elements. This session can use
+Our goal is to inspect and interact with Appium Inspector some of the application elements. This session can use
 the currently running Appium server, or a new one.
 
     1. From the server logs window, upper right corner, click the `Start Inspector Session` button:
@@ -65,7 +65,7 @@ the currently running Appium server, or a new one.
        
         ![Alt text](screenshots/SimpleYambaSession.png?raw=true)
         
-        You can find the json with these capabilities here: (this can be copied directly in the `JSON Representation`)
+        You can find the json with these capabilities here: (this can be copied directly in the `JSON Representation` section)
         * `inspector/simpleYambaSession.json`
         
      4. Click the `Start Session` button which will start the Appium session and open a new Inspector window to 
@@ -80,7 +80,7 @@ the currently running Appium server, or a new one.
     1. The app's hierarchy is in the middle of the window, represented as XML. You can navigate this tree by clicking through it, or by clicking on elements in the screenshot view.
     They will then be highlighted.
  
-    2. In the left Screenshot view of the app, click on the Menu button (3 dots) element and click `Tap`
+    2. On the left side, Screenshot view of the app, click on the Menu button (3 dots) element and click `Tap`
    
         ![Alt text](screenshots/MoreOptionsBtn.png?raw=true)      
         
@@ -90,6 +90,7 @@ the currently running Appium server, or a new one.
         
         
 ## Practice, practice :exclamation: :sweat:
+
 In the Inspector window you also have a Toolbar in the upper section. There you have `The Recorder` option with which
 you can record some of your interactions with the app and some code will be generated for you.
 Please read the section `The Recorder` from Appium desktop app: 
