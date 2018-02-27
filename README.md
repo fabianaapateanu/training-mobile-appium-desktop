@@ -2,7 +2,11 @@
 Learn about basic functionalities of Appium desktop application
 
 ## Prerequisites
-In order to use Appium desktop app you need to install Android SDK.
+* In order to use Appium desktop app you need to install Android SDK.
+* You can use an emulator or your own Android device for this example. 
+    * If you use your Android device you will need to activate Developer Mode and enable USB debugging - please follow the steps here:
+      https://www.androidphonesoft.com/resources/enable-usb-debugging-on-android.html
+    * If you use an emulator, I recommend Genymotion for Personal Use: https://www.genymotion.com
 
 ## Install Appium desktop
 Please download the latest release of Appium app, the `.exe` for Windows or `.dmg` for Mac OS:
@@ -58,15 +62,17 @@ the currently running Appium server, or a new one.
      
     3. Add the needed Desired Capabilities with `+` button:
         * `platformName` = `Android` - we test on Android
-        * `deviceName`, `deviceUdid` - please add your phone/tab values here
-        * `appPacakge` = `com.example.android.yamba`
+        * `deviceName`, `deviceUdid` - please add your phone/tab/emulator values here
+        * `app` - full path of the Yamba app, where you downloaded/closed this project, folder /apps
+        * `appPackage` = `com.example.android.yamba`
         * `appActivity` = `com.example.android.yamba.MainActivity`
         * `noReset` = `true` - because we will start multiple sessions, and we don't want the app to be reset
        
         ![Alt text](screenshots/SimpleYambaSession.png?raw=true)
         
         You can find the json with these capabilities here: (this can be copied directly in the `JSON Representation` section)
-        * `inspector/simpleYambaSession.json`
+        * for emulator - `inspector/emulatorS7YambaSession.json`
+        * for real device - `inspector/simpleYambaSession.json`
         
      4. Click the `Start Session` button which will start the Appium session and open a new Inspector window to 
      the Yamba app with no element selected:

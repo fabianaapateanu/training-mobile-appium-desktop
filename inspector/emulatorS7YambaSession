@@ -1,9 +1,10 @@
 {
   "deviceName": "Samsung S7",
-  "udid": "ad081603485808bb03",
+  "udid": "192.168.56.101:5555",
   "platformName": "Android",
   "app": "/Users/fapateanu/Projects/EndavaProjects/MyEndavaTrainings/training-mobile-appium-desktop/apps/yamba-debug.apk",
   "appPackage": "com.example.android.yamba",
   "appActivity": "com.example.android.yamba.MainActivity",
-  "noReset": "true"
+  "noReset": "true",
+  "newCommandTimeout": "600"
 }
