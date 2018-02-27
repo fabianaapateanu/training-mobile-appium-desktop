@@ -1,6 +1,9 @@
 # training-mobile-appium-desktop
 Learn about basic functionalities of Appium desktop application
 
+## Prerequisites
+In order to use Appium desktop app you need to install Android SDK.
+
 ## Install Appium desktop
 Please download the latest release of Appium app, the `.exe` for Windows or `.dmg` for Mac OS:
 * https://github.com/appium/appium-desktop/releases
@@ -38,16 +41,17 @@ under test, Yamba.
     
     This window will show through its logs and messages the status of the Appium server.
 
-2. Appium Inspector
+2. New Session
 
-    Through the Appium Inspector we want to start an Appium Driver session for the application under test.
-Our goal is to inspect and interact with some of the applications elements.
+    Through the New Session we want to start an Appium session for the application under test.
+Our goal is to inspect and interact with Appium Inspector some of the applications elements. This session can use
+the currently running Appium server, or a new one.
 
     1. From the server logs window, upper right corner, click the `Start Inspector Session` button:
    
      ![Alt text](screenshots/InspectorBtn.png?raw=true)
     
-    2. A new Inspector Session window is opened which has by default selected the option `Automatic Server`
+    2. A New Session window is opened which has by default selected the option `Automatic Server`
     which is using the server we just opened (section 1.)
     
      ![Alt text](screenshots/NewSession.png?raw=true)
@@ -64,11 +68,12 @@ Our goal is to inspect and interact with some of the applications elements.
         You can find the json with these capabilities here: (this can be copied directly in the `JSON Representation`)
         * `inspector/simpleYambaSession.json`
         
-     4. Click the `Start Session` button which will open a new session to the Yamba app with no element selected:
+     4. Click the `Start Session` button which will start the Appium session and open a new Inspector window to 
+     the Yamba app with no element selected:
         
         ![Alt text](screenshots/SimpleYambaSessionStarted.png?raw=true)      
         
-3. Appium Inspector Session
+3. Appium Inspector
     When the session with the Yamba app is started you can inspect the application elements and perform basic
     interactions with them.
     
