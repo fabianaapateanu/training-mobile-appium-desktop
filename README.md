@@ -77,11 +77,21 @@ the currently running Appium server, or a new one.
     When the session with the Yamba app is started you can inspect the application elements and perform basic
     interactions with them.
     
-    1. Expand element tree and look for the elements being highlighted while hovering with the mouse pointr
-    2. Select the Menu button (3 dots) element and click `Tap`
+    1. The app's hierarchy is in the middle of the window, represented as XML. You can navigate this tree by clicking through it, or by clicking on elements in the screenshot view.
+    They will then be highlighted.
+ 
+    2. In the left Screenshot view of the app, click on the Menu button (3 dots) element and click `Tap`
    
         ![Alt text](screenshots/MoreOptionsBtn.png?raw=true)      
         
-    3. The Options menu is opened and the app screen gets refreshed and the elements tree the same (App Source section)
+    3. The Options menu is opened and the app screen gets refreshed and the elements hierarchy the same (App Source section)
     
         ![Alt text](screenshots/AfterMoreOptionsBtn.png?raw=true)  
+        
+        
+## Practice, practice :exclamation: :sweat:
+In the Inspector window you also have a Toolbar in the upper section. There you have `The Recorder` option with which
+you can record some of your interactions with the app and some code will be generated for you.
+Please read the section `The Recorder` from Appium desktop app: 
+https://github.com/appium/appium-desktop   
+
