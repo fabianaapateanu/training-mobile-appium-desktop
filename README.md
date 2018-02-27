@@ -1,12 +1,13 @@
 # training-mobile-appium-desktop
-Learn about basic functionalities of Appium desktop application
+Learn about basic functionalities of Appium desktop application.
 
 ## Prerequisites
 * In order to use Appium desktop app you need to install Android SDK.
 * You can use an emulator or your own Android device for this example. 
     * If you use your Android device you will need to activate Developer Mode and enable USB debugging - please follow the steps here:
       https://www.androidphonesoft.com/resources/enable-usb-debugging-on-android.html
-    * If you use an emulator, I recommend Genymotion for Personal Use: https://www.genymotion.com
+    * If you use an emulator, I recommend Genymotion for Personal Use: https://www.genymotion.com. Please have prepared one Android 6.0 emulator ready for start
+* You will need to clone or download this project as zip file, in order to have access to the test application and Appium session json configuration files
 
 ## Install Appium desktop
 Please download the latest release of Appium app, the `.exe` for Windows or `.dmg` for Mac OS:
