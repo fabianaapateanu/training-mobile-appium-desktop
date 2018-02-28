@@ -13,6 +13,8 @@ Learn about basic functionalities of Appium desktop application.
 Please download the latest release of Appium app, the `.exe` for Windows or `.dmg` for Mac OS:
 * https://github.com/appium/appium-desktop/releases
 
+After download please follow the install wizard.
+
 The version used in this tutorial is Appium Desktop 1.3.2 for Mac OS which contains Appium Server version 1.7.2.
 
 ## Application under test
