@@ -9,12 +9,17 @@ Learn about basic functionalities of Appium desktop application.
     * If you use an emulator, I recommend Genymotion for Personal Use: https://www.genymotion.com. Please have prepared one Android 6.0 emulator ready for start
 * You will need to clone or download this project as zip file, in order to have access to the test application and Appium session json configuration files
 
-1. Android tools
+1. Android SDK tools
 
-* Make sure you have the correct value in ANDROID_HOME System variable - the path to the Android SDK installed with Android Studio or standalone.
-* Adb Android tool can be found in ANDROID_HOME\platform-tools
-* Command line command for finding the connected Android devices on your computer:
-   >adb devices
+   * Make sure you have the correct value in ANDROID_HOME System variable - the path to the Android SDK installed with Android Studio or as standalone installation.
+   * Adb Android tool can be found in ANDROID_HOME\platform-tools
+   * Command line command for finding the connected Android devices on your computer:
+    >adb devices
+   
+2. Physical Android device
+
+   * Please remove from your device any lock option you might have - it needs to be set on None
+   * In Developer options, please also enable option: Stay awake, and disable option: Verify apps via USB.
    
 ## Install Appium desktop
 Please download the latest release of Appium app, the `.exe` for Windows or `.dmg` for Mac OS:
