@@ -61,7 +61,7 @@ under test, Yamba.
 2. New Session
 
     Through the New Session we want to start an Appium session for the application under test.
-Our goal is to inspect and interact with Appium Inspector some of the application elements. This session can use
+Our goal is to inspect and interact with Appium Inspector, some of the application elements. This session can use
 the currently running Appium server, or a new one.
 
     1. From the server logs window, upper right corner, click the `Start Inspector Session` button:
