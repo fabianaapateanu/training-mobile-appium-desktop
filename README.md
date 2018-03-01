@@ -10,7 +10,10 @@ Learn about basic functionalities of Appium desktop application.
 * You will need to clone or download this project as zip file, in order to have access to the test application and Appium session json configuration files
 
 1. Android tools
-* Command line command for finding the connected devices:
+
+* Make sure you have the correct value in ANDROID_HOME System variable - the path to the Android SDK installed with Android Studio or standalone.
+* Adb Android tool can be found in ANDROID_HOME\platform-tools
+* Command line command for finding the connected Android devices on your computer:
    $adb devices
    
 ## Install Appium desktop
