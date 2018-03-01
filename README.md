@@ -64,6 +64,7 @@ the currently running Appium server, or a new one.
     3. Add the needed Desired Capabilities with `+` button:
         * `platformName` = `Android` - we test on Android
         * `deviceName`, `deviceUdid` - please add your phone/tab/emulator values here
+        For Genymotion emulator use: `udid` = `192.168.56.101:5555`
         * `app` - full path of the Yamba app, where you downloaded/closed this project, folder /apps
         * `appPackage` = `com.example.android.yamba`
         * `appActivity` = `com.example.android.yamba.MainActivity`
