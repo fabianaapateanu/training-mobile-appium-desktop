@@ -2,7 +2,9 @@
 Learn about basic functionalities of Appium desktop application.
 
 ## Prerequisites
-* In order to use Appium desktop app you need to install Android SDK.
+
+* In order to use Appium desktop app you need to install Java JDK and add it to your System variables.
+* In order to use Appium desktop app you need to install Android SDK and add it to your System variables.
 * You can use an emulator or your own Android device for this example. 
     * If you use your Android device you will need to activate Developer Mode and enable USB debugging - please follow the steps here:
       https://www.androidphonesoft.com/resources/enable-usb-debugging-on-android.html
@@ -12,11 +14,12 @@ Learn about basic functionalities of Appium desktop application.
 1. Android SDK tools
 
    * Make sure you have the correct value in ANDROID_HOME System variable - the path to the Android SDK installed with Android Studio or as standalone installation.
+   * Make sure you also have the ANDROID_HOME\platform-tools and ANDROID_HOME\tools in your System variables
    * Adb Android tool can be found in ANDROID_HOME\platform-tools
    * Command line command for finding the connected Android devices on your computer:
     >adb devices
    
-2. Physical Android device
+2. Using a physical Android device
 
    * Please remove from your device any lock option you might have - it needs to be set on None
    * In Developer options, please also enable option: Stay awake, and disable option: Verify apps via USB.
