@@ -14,7 +14,7 @@ Learn about basic functionalities of Appium desktop application.
 * Make sure you have the correct value in ANDROID_HOME System variable - the path to the Android SDK installed with Android Studio or standalone.
 * Adb Android tool can be found in ANDROID_HOME\platform-tools
 * Command line command for finding the connected Android devices on your computer:
-   $adb devices
+   >adb devices
    
 ## Install Appium desktop
 Please download the latest release of Appium app, the `.exe` for Windows or `.dmg` for Mac OS:
