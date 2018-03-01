@@ -9,6 +9,10 @@ Learn about basic functionalities of Appium desktop application.
     * If you use an emulator, I recommend Genymotion for Personal Use: https://www.genymotion.com. Please have prepared one Android 6.0 emulator ready for start
 * You will need to clone or download this project as zip file, in order to have access to the test application and Appium session json configuration files
 
+1. Android tools
+* Command line command for finding the connected devices:
+   $adb devices
+   
 ## Install Appium desktop
 Please download the latest release of Appium app, the `.exe` for Windows or `.dmg` for Mac OS:
 * https://github.com/appium/appium-desktop/releases
